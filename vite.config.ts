@@ -15,4 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/madhansilks-salem-showcase/", // 👈 Add this line for GitHub Pages
 }));
